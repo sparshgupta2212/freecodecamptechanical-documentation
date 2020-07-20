@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color:orangered;
+    z-index: 999;
+}
+
+#header-img {
+    
+    
+}
+
+#nav-bar {
+    float: right;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-right: 20px;
+    font-family:papyrus	;
+    font-size:15px;
+}
+
+#nav-bar a {
+    color:rgb(38, 194, 24);
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    text-decoration: underline;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://wallpapercave.com/wp/wc1757452.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+  
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-family: Century Gothic;
+    color:rgb(218, 3, 171);
+    text-shadow: 0px 0px 300px #000;
+    font-size: 450%;
+}
+.about-container {
+    background: url("https://images.hdqwalls.com/download/ktm-1290-super-duke-front-view-31-1920x1080.jpg") no-repeat center center; 
+  background-size: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-title-text {
+    color: #24cc03;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5em;
+    float:center;
+  }
+  
+  
+#video {
+ 
+    border: groove, orangered;
+    border-width: 3px;
+    float:middle;
+  }
+  
+  
+  
+  
+
+  
+  .model-title-text {
+    color: brown;
+    background-color: violet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 4vh;
+    font-size: 2.5em;
+  }
+  .cards-container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50em, auto));
+    grid-gap: 5px;
+    margin: 0em;
+  }
+  .card-content {
+    background:black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .card-textbox {
+    height: 20%;
+  }
+  
+  h4 {
+    font-size: 2em;
+    font-style: italic;
+    color:red;
+  }
+  
+  .card-image {
+    width: 20em;
+    height: 20em;
+    justify-self: center;
+  }
+  .contact-container {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .contact-image {
+    background: url("https://images.hdqwalls.com/download/ktm-1290-super-duke-front-view-31-1920x1080.jpg")
+    no-repeat center center; 
+    background-size: cover;
+    width: auto;
+    height:auto;
+
+  }
+  
+  .contact-content-container {
+    
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-title {
+    color:coral;
+    font-family: 'Audiowide', cursive;
+    font-size: 2.5em;
+    margin-left: 2.5em;
+    margin-top: 2.5em;
+  }
+  
+  .contact-text {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10em;
+  }
+  
+  label {
+    font-size: 1.5em;
+    color: rgba(24, 209, 163, 0.651);
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5em;
+    margin-top: 2.5em;
+  }
+  .email-label{
+    color:crimson;
+    
+  font-family: 'Audiowide', cursive;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0em;
+    
+  }
+  #email {
+    font-family: 'Audiowide', cursive;
+    margin: 1em auto;
+    height: 1.6em;
+    width: 200px;
+    border: 2px solid #7575a3;
+    border-radius: 3px;
+}
+#submit {
+    margin:auto;
+}
+#header {
+    font-size: 225%;
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+
+.container p {
+    font-size: 160%;
+    line-height:  210%;
+    text-align: justify;
+    margin: 3%;
+    padding: 2%;
+    font-family: sans-serif;
+    border: 3px solid black;
+}
+strong {
+    font-size: 170%;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 225%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+form input  {
+    display: flex;
+}
+#email-label{float:middle;}
+.img {
+    max-height: 500px;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+#video-div {
+    padding-bottom:;
+}
+#video-div iframe {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+}
+footer {
+    background-color: black;
+    font-size: 150%;
+    margin-top: 10px;
+    color: #1a53ff;
+    text-align: center;
+    }
+    #img-div {
+        max-height: 200px;
+        width: auto;
+    }
+    #header-img {
+        display: block;
+        position: relative;
+        height: 2.3em;
+        width: 2.4em;
+        float: right;
+    }
+
+    @media (max-width: 1233px) {
+        #video {width: 60vw;}  
+        .about-container {height: auto;} 
+        .about-content-container {
+        height: auto;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        }
+      }
+      @media (max-width: 900px) {
+        .model-title-text {
+        margin-left: 55vw;
+        margin-bottom: 8vh;
+        }
+        #video {width: 70vw;} 
+      }
+      @media (max-width: 575px) {
+        .home-title-text {margin-right: 35%;}
+        #model {margin-bottom: 20vh;}
+        .model-title-text {
+        margin-bottom: 15vh;
+        margin-left: 20vw;     
+        }
+        #video {
+          height: 40vh;
+          width: 80vw;
+          margin-bottom: 30vh;
+        }
+        #about {margin-bottom: 10vh;}
+        .cards-container {
+          margin-left: 3em;
+          margin-right: 3em;
+        }
+        .contact-title {margin-left: 0.5em}
+        
+        #contact {
+          margin-bottom: 10vh;
+        }
+        .contact-title{}
+        .contact-text{
+          margin-left: 0px;
+        }
+        form {width: 75%;}
+      }

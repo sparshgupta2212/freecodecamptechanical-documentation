@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KTM Duke Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>function openLink(link) {
+        window.open(link);
+      }
+      $("nav").find("a").click(function(e){
+  e.preventDefault();
+  var section = $(this).attr("href");
+  $("html, body").animate({
+    scrollTop: $(section).offset().top
+  });               
+});
+$(function () {
+	$('[data-toggle="popover"]').popover()
+});
+     </script>
+</head>
+<body>
+    <section class="intro" id="page0">
+        <div class="inner">
+            <div class="content">
+                <h1>"Never Give Up What You Love"</h1>
+                
+            </div>
+        </div>
+    </section>
+    <section class="container" id="page1">
+        <header id="header">
+            <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxHBTX0lrhgVJD5A1cCrXewk1JcfLuMtUmXg&usqp=CAU" alt="company logo" style="float:left;">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#model">Models</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+           
+        <br><br>
+        <div id="about" class="invisible"></div>
+  <div class="about-container">
+    <h1 class="about-title-text">About</h1>        
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YzPISYhh8-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+ 
+  <div class="model-container">  
+    <div class="model-image">
+     <div id="model" class="invisible"></div>
+      <div class="model-content-container"> 
+        <h1 class="model-title-text">Models</h1>  
+        <div class="cards-container">
+          
+          <div onClick= openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-790-duke-2020.html") class="price-card">        
+            <div class="card-content">
+              <div class="card-textbox">
+                <h4>KTM 790 DUKE 2020</h4> 
+              </div>
+              <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_790DUKE-MY20-Orange-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V1.png">  
+              <iframe  width="315" height="315" src="https://www.youtube.com/embed/cAmnWh6rHHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+          </div>
+          
+          <div onClick=openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-890-duke-r-2020.html") class="price-card">        
+            <div class="card-content">
+              <div class="card-textbox">
+                <h4>KTM 890 DUKE R 2020</h4>
+              </div>  
+              <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_890DUKE-MY20-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V2.png">  
+              <iframe  width="315" height="315" src="https://www.youtube.com/embed/h0pUOlQM13M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </div>
+         
+          </div>
+          
+          <div onClick=openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-1290-super-duker2020.html") class="price-card">        
+            <div class="card-content">
+              <div class="card-textbox">
+                <h4>KTM 1290 SUPER DUKE R 2020</h4>
+              </div>
+              <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_1290SUPERDUKER-MY20-Orange-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V1.png">  
+              <iframe  width="315" height="315" src="https://www.youtube.com/embed/2AQCCr6_PP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+             
+          </div>
+          <div onClick=openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-390-duke-2019.html") class="price-card">        
+            <div class="card-content">
+              <div class="card-textbox">
+                <h4>KTM 390 DUKE 2019</h4>
+              </div>
+              <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_390DUKE-MY20-Silver-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V1.png">  
+              <iframe width="315" height="315" src="https://www.youtube.com/embed/LHTGf7rJlCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+             
+          </div>
+          <div onClick=openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-200-duke-2020.html") class="price-card">        
+            <div class="card-content">
+              <div class="card-textbox">
+                <h4>KTM 200 DUKE 2020</h4>
+              </div>
+              <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_200DUKE-MY20-Orange-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V1.png">  
+              <iframe width="315" height="315" src="https://www.youtube.com/embed/2XN_CKCAMOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+             
+          </div>
+          <div onClick=openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-125-duke-2020.html") class="price-card">        
+            <div class="card-content">
+              <div class="card-textbox">
+                <h4>KTM 125 DUKE 2020</h4>
+              </div>
+              <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_KTM-125-DUKE-India-MY20-Orange-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V1.png">  
+              <iframe width="315" height="315" src="https://www.youtube.com/embed/rTF6ce-gRAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+             
+          </div>
+        </div>
+        <div onClick=openLink("https://www.ktm.com/en-in/models/naked-bike/ktm-250-duke-2020.html") class="price-card">        
+          <div class="card-content">
+            <div class="card-textbox">
+              <h4>KTM 250 DUKE 2020</h4>
+            </div>
+            <img class="card-image" src="https://www.ktm.com/ktmgroup-storage/PHO_BIKE_90_RE_250DUKE-MY20-Black-PHO-BIKE-90-RE_%23SALL_%23AEPI_%23V1.png">  
+            <iframe width="315" height="315" src="https://www.youtube.com/embed/5jtC5A_uFcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+           
+        </div>
+          
+            
+    </section>
+    <div class="contact-container">
+      <div class="contact-image">
+        <div id="contact" class="invisible"></div>
+      <div class="contact-content-container">
+        <h1 class="contact-title">Contact</h1>
+        
+        <div class="subscribe-text">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <label for="email" class="email-label">Email:
+                <input type="email" id="email" name="email" placeholder="Your email">
+          <input type="submit" id="submit">  
+        </label>  
+          </form>
+        </div>  
+      </div>
+     </div>   
+    </div>  
+       
+    <footer>
+        <p>&copy Sparsh Gupta<br>Thanks for checking out my code!</p>
+    </footer>
+
+</body>
+</html>
